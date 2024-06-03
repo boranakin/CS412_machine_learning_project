@@ -1,0 +1,21 @@
+
+**config.yaml**:
+```yaml
+# Configuration file for the machine learning project
+
+# Paths to data files
+data:
+  raw: 'data/raw'
+  processed: 'data/processed'
+
+# Paths to models and reports
+models: 'models'
+reports: 'reports'
+
+# Parameters for preprocessing and model training
+preprocessing:
+  max_features: 1000
+
+training:
+  test_size: 0.2
+  random_state: 42
